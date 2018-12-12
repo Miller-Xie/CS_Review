@@ -1,7 +1,0 @@
-5 5 3
-hello help high
-p a b h m
-f h e c p
-o i l l h
-b g h o n
-h x c m l
