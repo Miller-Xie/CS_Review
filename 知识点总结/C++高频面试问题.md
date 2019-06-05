@@ -21,16 +21,24 @@
 * STL中vector的实现
 * STL容器的几种迭代器以及对应的容器（输入迭代器，输出迭代器，前向迭代器，双向迭代器，随机访问迭代器）
 > 顺序容器：vector,deque是随机访问迭代器；list是双向迭代器
-容器适配器：stack,queue,priority_queue没有迭代器
-关联容器：set,map,multiset,multimap是双向迭代器；
-unordered_set,unordered_map,unordered_multiset,unordered_multimap是前向迭代器
+>
+> 容器适配器：stack,queue,priority_queue没有迭代器
+>
+> 关联容器：set,map,multiset,multimap是双向迭代器
+>
+> unordered_set,unordered_map,unordered_multiset,unordered_multimap是前向迭代器
 * STL中的traits技法
 > type_traits
-iterator_traits
-char traits
-allocator_traits
-pointer_traits
-array_traits
+>
+> iterator_traits
+>
+> char traits
+>
+> allocator_traits
+>
+> pointer_traits
+>
+> array_traits
 * vector使用的注意点及其原因，频繁对vector调用push_back()对性能的影响和原因。
 * C++中的重载和重写的区别
 * C++内存管理，内存池技术（热门问题），与csapp中几种内存分配方式对比学习加深理解
@@ -77,8 +85,11 @@ array_traits
 * C++的四种强制转换
 
 > static_cast
+>
 > dynamic_cast
+>
 > const_cast
+>
 > reinterpret_cast
 
 * C++中将临时变量作为返回值的时候的处理过程（栈上的内存分配、拷贝过程）
